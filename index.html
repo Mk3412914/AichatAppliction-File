@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website Mukesh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+
+      <nav>
+        <div class="logo-box">
+          <img src="./images/"portfolio-image.jpg" alt="" />
+          <h1>M<span class="span-logo">ukesh</span></h1>
+        </div>
+
+        <div class="nav-items">
+          <a id="About" class="span-logo" href="#home">Home </a>
+
+          <a id="About" class="span-logo" href="#project">Projects </a>
+          <a id="About" class="span-logo" href="#skill">Skills </a>
+          <a id="About" class="span-logo" href="#contact-page">Contact me </a>
+
+          <button onclick="closemenu()">
+            <i class="menu-cancle-icon fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <!-- dark mode -->
+        <div class="dark-mode">
+          <p>Dark</p>
+          <input type="checkbox" id="check" />
+          <label for="check" class="mode"></label>
+          <p>Light</p>
+        </div>
+
+        <button onclick="openmenu()">
+            <button onclick="openmenu()">
+                <img
+                  loading="lazy"
+                  class="menu-open-icon"
+                  src="./images/menu.png"
+            alt=""
+          />
+        </button>
+      </nav>
+
+      <!-- hero-section -->
+      <section id="home" class="hero-section">
+        <!-- left section -->
+        <div class="hero-left">
+          <h1 class="dark-txt">Hi, I'm <span>Mukesh-kumar-yadav</span></h1>
+          <p class="dark-txt">FULL Stack Developer</p>
+
+          <p class="dark-txt">Software Engineer</p>
+
+          <a href="./images/"resumemukesh.pdf"
+            ><button class="button">Download Resume</button>
+         </a>
+        </div>
+
+        <!-- right-section -->
+
+        <div class="hero-img">
+          <img src="./images/"portfolio-image.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- project section -->
+
+      <section class="project-section">
+        <h1 id="project" class="project-heading">Projects</h1>
+
+        <!-- project 1 weather app -->
+
+        <div id="weather" class="project-weather">
+          <div id="content" class="project-name">
+            <h1 style="color: white">Weather App</h1>
+            <p>
+              Developed a dynamic Weather App to fetch and display real-time
+              weather data using JavaScript and integrated third-party APIs.
+            </p>
+            <div>
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/javascript-icon.png"
+                alt=""
+              />
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/css-icon.png"
+                alt=""
+              />
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/tailwind-css-icon.png"
+                alt=""
+              />
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/html-icon.png"
+                alt=""
+              />
+            </div>
+            <a href="https://Mk3412914?.github.io/weather-app/"
+              ><button class="button">Open Project</button></a
+            >
+          </div>
+        </div>
+
+        <!-- project 2 game app -->
+
+        <div id="game" class="project-game">
+          <div id="game-content" class="project-name">
+            <h1 style="color: white">Number Guess Game</h1>
+            <p>
+              Developed an engaging Number Guessing Game using JavaScript, HTML,
+              and CSS, where players can test their intuition by guessing a
+              randomly generated number
+            </p>
+            <div>
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/javascript-icon.png"
+                alt=""
+              />
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/css-icon.png"
+                alt=""
+              />
+
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/html-icon.png"
+                alt=""
+              />
+            </div>
+            <a href="https://Mk3412914?.github.io/guess-a-number-game/"
+              ><button class="button">Open Project</button></a
+            >
+          </div>
+        </div>
+
+        <!-- project 3 password generator app -->
+
+        <div id="password-generator" class="project-password">
+          <div id="password" class="project-name">
+            <h1 style="color: white">Password Generator App</h1>
+            <p>
+              Designed a dynamic Password Generator application using HTML, CSS,
+              and JavaScript, offering users secure and customizable passwords
+              with options for symbols, numbers, and letters. The generator
+              ensures seamless navigation.
+            </p>
+            <div>
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/javascript-icon.png"
+                alt=""
+              />
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/css-icon.png"
+                alt=""
+              />
+
+              <img
+                class="skill-logo"
+                loading="lazy"
+                src="./images/html-icon.png"
+                alt=""
+              />
+            </div>
+            <a href="https://Mk3412914?.github.io/PasswordGenrator/"
+              ><button class="button">Open Project</button></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- skill section -->
+
+      <section id="skill" class="skill-section">
+        <h1 id="project" class="skill-heading dark-txt">My Skills</h1>
+
+        <!-- main-content -->
+        <div class="skill-content">
+          <!-- left -->
+          <div class="skill-left">
+            <h1>Hello Everyone</h1>
+            <p class="dark-txt">
+              I am Recent B.Tech graduate in Electronics and Communication with
+              proficiency in HTML, CSS, JavaScript and python. I am also Skilled wiht Programming Languages Like C++ With Data Structure and Algorithms. Skilled in developing full Stack dynamic web applications and
+              passionate about innovative solutions. Eager to contribute and
+              learn in a dynamic development environment.
+            </p>
+          </div>
+
+          <!-- right -->
+          <div>
+            <h1 class="Skill dark-txt">Skills</h1>
+            <div id="skill-right">
+             <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/Power BI-icon.png"
+                  alt=""
+                />
+                <p class="dark-txt">Power BI</p>
+              </div>
+
+              <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/python-icon.png"
+                  alt=""
+                />
+                <p class="dark-txt">python</p>
+              </div>
+
+              <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/SQL.png"
+                  alt=""
+                />
+                <p class="dark-txt">SQL</p>
+              </div>
+
+              <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/css-icon.jpg"
+                  alt=""
+                />
+                <p class="dark-txt">CSS</p>
+              </div>
+
+              <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/html-icon.png"
+                  alt=""
+                />
+                <p class="dark-txt">Html</p>
+              </div>
+
+              <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/javascript-icon.png"
+                  alt=""
+                />
+                <p class="dark-txt">JAVASCRIPT</p>
+              </div>
+
+              <div>
+                <img
+                  class="skill-section-logo"
+                  src="./images/c++-icon.png"
+                  alt=""
+                />
+                <p class="dark-txt">C++</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="tools dark-txt">Tools</h1>
+
+        <div class="tools-section">
+          <div>
+            <img class="skill-section-logo" src="./images/git2.png" alt="" />
+            <p class="dark-txt">GIT</p>
+          </div>
+
+          <div>
+            <img
+              class="skill-section-logo"
+              style="background-color: white"
+              src="./images/github.png"
+              alt=""
+            />
+            <p class="dark-txt">GITHUB</p>
+          </div>
+
+          <div>
+            <img class="skill-section-logo" src="./images/vscode.png" alt="" />
+            <p class="dark-txt">VS CODE</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact me section -->
+
+      <section id="contact-page" class="contact-page">
+        <!-- left wala -->
+
+        <div class="contact-left">
+          <h1 class="dark-txt" id="project">Contact me</h1>
+
+          <div class="contact-info">
+            <img class="contact-icon" src="./images/email.png" alt="" />
+            <a href="#">mk3412914@gmail.com</a>
+          </div>
+
+          <div class="contact-info">
+            <img class="contact-icon" src="./images/phone.gif" alt="" />
+            <p>+91 9399780477</p>
+          </div>
+
+          <div class="contact-social-icon">
+            <div>
+              <a href="https://www.instagram.com/Shreyanshyadav756/">
+                <img class="contact-icon" src="./images/instagram.png" alt="" />
+              </a>
+            </div>
+
+            <div>
+              <a href="https://https://github.com/Mk3412914?">
+                <img
+                  class="contact-icon"
+                  style="background-color: white"
+                  src="./images/github.png"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div>
+              <a type="phone" href="#">
+                <img class="contact-icon" src="./images/whatsapp.png" alt="" />
+              </a>
+            </div>
+
+            <div>
+              <a href="#">
+                <img class="contact-icon" src="./images/facebook.png" alt="" />
+              </a>
+            </div>
+
+            <div>
+              <a href="https://www.linkedin.com/in/mukesh-kumar-yadav-ba9137237>
+                <img class="contact-icon" src="./images/linkedin.png" alt="" />
+              </a>
+            </div>
+            
+          </div>
+
+          <a href="./images/"resumemukesh.pdf"
+            ><button class="button">Download Resume</button></a
+          >
+        </div>
+
+        <!-- right wala -->
+
+        <div class="contact-me">
+          <form class="contact-form">
+            <input
+              class="input"
+              type="text"
+              placeholder="Your Name"
+              required
+              name="name"
+            />
+            <input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="Your Email required"
+            />
+            <textarea
+              class="input"
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Enter Message here:"
+            ></textarea>
+            <button class="button" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <h1 id="project" class="dark-txt thanks">Thankyou</h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
